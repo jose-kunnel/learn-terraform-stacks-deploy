@@ -1,4 +1,4 @@
-deployment {
+deployment "dev" {
   name        = "demo-deployment"
   description = "Dummy deployment config"
 
