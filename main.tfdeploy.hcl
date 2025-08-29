@@ -1,3 +1,3 @@
 deployment "dev" {
-  stack "demo-stack" {}
+  stack = "./main.tfstack.hcl"
 }
