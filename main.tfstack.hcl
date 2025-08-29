@@ -1,8 +1,7 @@
-stack {
-  name        = "demo-stack"
+stack "demo-stack" {
   description = "A dummy stack to test HCP Terraform Stacks Beta"
-}
 
-components {
-  random_example = "./random"
+  component "random_example" {
+    source = "./random/random.tfcomponent.hcl"
+  }
 }
