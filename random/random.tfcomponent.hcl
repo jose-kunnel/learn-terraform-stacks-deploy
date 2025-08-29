@@ -1,3 +1,5 @@
-component "random_example" {
-  source = "./random"
+deployment "dev" {
+  component "random_example" {
+    source = "./random"
+  }
 }
