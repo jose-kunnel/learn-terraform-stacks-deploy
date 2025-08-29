@@ -1,3 +1,5 @@
 deployment "dev" {
-  stack = "./random/random.tfcomponent.hcl"
+  components = {
+    random_example = component.random_example
+  }
 }
