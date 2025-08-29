@@ -1,3 +1,3 @@
 deployment "dev" {
-  stack = "./main.tfstack.hcl"
+  stack = "./random/random.tfcomponent.hcl"
 }
